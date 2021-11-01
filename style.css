@@ -5,60 +5,62 @@ body {
     background-color: #F2F2F2;
     /*background-color: #0D0D0D;*/
     color: #0D0D0D;
+    /*color: #F2F2F2;*/
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #F2A20C;
+    color: #F2A20C !important;
     font-family: 'Expletus Sans', cursive;
     font-weight: 500;
     text-shadow: .025rem .025rem .025rem #F28B0C;
     text-transform: uppercase;
 }
 
-h1, nav button {
+a {
     color: #0D0D0D;
+}
+
+h1 a.navbar-brand {
+    /*color: #F2A20C !important;*/
+    color: #0D0D0D !important;
+    /*color: #F2F2F2 !important;*/
     font-weight: 700;
-    text-shadow: .025rem .025rem .025rem #F2F2F2;
+    text-shadow: .02rem .02rem .02rem #F2F2F2;
+    /*text-shadow: .02rem .02rem .02rem #000000;*/
+    /*text-shadow: none;*/
 }
 
-h2 {
+/*h2 {
     font-weight: 400;
-}
+}*/
 
-header {
+/*header {
     background-image: url('img/alex-litvin-MAYsdoYpGuk-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    color: #0D0D0D;
+    !*color: #0D0D0D;*!
     height: 13rem;
+    filter:grayscale(75%);
 }
 
 .banner-filter {
-    /*background: rgba(13, 13, 13, 0.5);*/
+    !*background: rgba(13, 13, 13, 0.75);*!
     background: rgba(242, 242, 242, 0.5);
     height: 15rem;
+}*/
+
+nav .nav-link {
+    color: #0D0D0D !important;
+    /*color: #F2F2F2 !important;*/
+    font-family: 'Expletus Sans', cursive;
+    text-transform: uppercase;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: .5rem;
-}
-
-nav div {
-    display: none;
-}
-
-nav button {
-    background-color: transparent;
-    border: 0;
-}
-
-.home-presentation {
-    text-align: center;
+nav .nav-link.active {
+    font-weight: 700;
 }
 
 section {
@@ -70,13 +72,14 @@ section {
     background: #F28B0C;
     box-shadow: inset 0 -2px 2px 2px rgba(166, 95, 8, 0.25), inset 0 2px 2px 2px #F2A20C;
     border-radius: 10px;
-    color: #0D0D0D;
+    /*color: #0D0D0D;*/
     display: block;
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 600;
     margin: 2rem auto 1rem auto;
     padding: 1rem 2rem;
-    text-decoration: none;
-    /*text-transform: capitalize;*/
-    width: 45%;
+    text-transform: uppercase;
+    width: 75%;
 }
 
 footer {
@@ -86,25 +89,30 @@ footer {
     text-align: center;
 }
 
-footer .site-map {
-    order: 2;
-    margin: 1rem auto;
-}
-
 footer .newsletter-footer {
     margin: 1rem auto;
+    order: 1;
 }
 
-footer .newsletter-footer .input-group input {
-    /*background-color: #FFFFFF;*/
-    background-color: transparent;
-    box-shadow: inset -1px -1px 1px 1px rgba(255, 255, 255, 01), inset 1px 1px 1px 1px rgba(0, 0, 0, .15);
+footer .social-media {
+    margin: 1rem auto;
+    order: 2;
+}
+
+footer .social-media a {
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: #F28B0C;
+    text-shadow: .025rem .025rem .025rem rgba(166, 95, 8, 0.25);
+}
+
+footer .newsletter-footer .form-group input {
+    box-shadow: inset -1px -1px 1px 1px rgba(255, 255, 255, 1), inset 1px 1px 1px 1px rgba(0, 0, 0, .1);
     border: 0;
-    /*border: 1px solid #0D0D0D;*/
     border-radius: 5px;
-    margin: .25rem;
+    margin: .25rem auto;
     padding: .5rem;
-    width: 50%;
+    width: 75%;
 }
 
 .btn-submit {
@@ -112,13 +120,11 @@ footer .newsletter-footer .input-group input {
     box-shadow: inset 0 -2px 2px 2px rgba(166, 95, 8, 0.25), inset 0 2px 2px 2px #F2A20C;
     border: 0;
     border-radius: 5px;
-    color: #0D0D0D;
+    /*color: #0D0D0D;*/
     display: block;
-    margin: .25rem auto;
+    margin: .5rem auto;
     padding: .5rem 1rem;
-    text-decoration: none;
-    /*text-transform: capitalize;*/
-    width: 50%;
+    width: 75%;
 }
 
 
