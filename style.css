@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 body {
-    background-color: #F2F2F2;
-    /*background-color: #0D0D0D;*/
-    color: #0D0D0D;
-    /*color: #F2F2F2;*/
+    /*background-color: #F2F2F2;*/
+    background-color: #0D0D0D;
+    /*color: #0D0D0D;*/
+    color: #F2F2F2;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: #F2A20C !important;
     font-family: 'Expletus Sans', cursive;
-    font-weight: 500;
+    font-weight: 400;
     text-shadow: .025rem .025rem .025rem #F28B0C;
     text-transform: uppercase;
 }
@@ -25,10 +25,10 @@ a {
 
 h1 a.navbar-brand {
     /*color: #F2A20C !important;*/
-    color: #0D0D0D !important;
-    /*color: #F2F2F2 !important;*/
-    font-weight: 700;
-    text-shadow: .02rem .02rem .02rem #F2F2F2;
+    /*color: #0D0D0D !important;*/
+    color: #F2F2F2 !important;
+    /*font-weight: 700;*/
+    /*text-shadow: .02rem .02rem .02rem #F2F2F2;*/
     /*text-shadow: .02rem .02rem .02rem #000000;*/
     /*text-shadow: none;*/
 }
@@ -37,24 +37,25 @@ h1 a.navbar-brand {
     font-weight: 400;
 }*/
 
-/*header {
-    background-image: url('img/alex-litvin-MAYsdoYpGuk-unsplash.jpg');
+header {
+    /*background-image: url('img/alex-litvin-MAYsdoYpGuk-unsplash.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
-    !*color: #0D0D0D;*!
-    height: 13rem;
-    filter:grayscale(75%);
+    /*color: #0D0D0D;*/
+    /*height: 25rem;*/
+    /*filter:grayscale(75%);*/
+    background-position: center 15%;
 }
 
-.banner-filter {
-    !*background: rgba(13, 13, 13, 0.75);*!
-    background: rgba(242, 242, 242, 0.5);
-    height: 15rem;
+/*.banner-filter {
+    background: rgba(13, 13, 13, 0.75);
+    !*background: rgba(242, 242, 242, 0.5);*!
+    height: 25rem;
 }*/
 
 nav .nav-link {
-    color: #0D0D0D !important;
-    /*color: #F2F2F2 !important;*/
+    /*color: #0D0D0D !important;*/
+    color: #F2F2F2 !important;
     font-family: 'Expletus Sans', cursive;
     text-transform: uppercase;
 }
@@ -66,6 +67,15 @@ nav .nav-link.active {
 section {
     text-align: center;
     margin: 4rem 0;
+}
+
+
+section .card {
+    background-color: rgba(242, 242, 242, 0.05);
+}
+
+section .card .card-img-top {
+    width: 20rem;
 }
 
 .btn-more {
@@ -125,6 +135,13 @@ footer .newsletter-footer .form-group input {
     margin: .5rem auto;
     padding: .5rem 1rem;
     width: 75%;
+}
+
+@media (min-width: 992px) {
+    h1 a.navbar-brand {
+        font-size: 2rem;
+        font-weight: 400;
+    }
 }
 
 
