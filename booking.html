@@ -18,9 +18,9 @@
 <body>
 <header>
     <div class="banner-filter">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-                <h1><a class="navbar-brand active" href="#">Les Films de Plein Air</a></h1>
+                <h1><a class="navbar-brand active" href="home.html">Les Films de Plein Air</a></h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -51,58 +51,44 @@
     </div>
 </header>
 
-<section class="home-presentation">
-    <h2>Slogan</h2>
-    <p class="container">Harum trium sententiarum nulli prorsus assentior. Nec enim illa prima vera est, ut, quem ad modum in se quisque sit, sic in amicum sit animatus.
+<section class="movie-presentation">
+    <h2>Réservation pour la séance du 05 Août</h2>
+    <div class="movie-movies-list d-flex justify-content-around flex-wrap mt-4">
+        <article class="card border-0 m-3">
+            <img src="img/MELANCHOLIA.jpg" alt="" class="card-img-top img-fluid">
+            <p class="card-text p-4">
+                Titre
+                <br> Durée
+                <br> Synopsis
+                <br> Avertissement
+            </p>
+        </article>
+        <article class="card border-0 m-3">
+            <img src="img/MELANCHOLIA.jpg" alt="" class="card-img-top img-fluid">
+            <p class="card-text p-4">
+                Titre
+                <br> Durée
+                <br> Synopsis
+                <br> Avertissement</p>
+        </article>
+        <article class="card border-0 m-3">
+            <img src="img/MELANCHOLIA.jpg" alt="" class="card-img-top img-fluid">
+            <p class="card-text p-4">
+                Titre
+                <br> Durée
+                <br> Synopsis
+                <br> Avertissement</p>
+        </article>
+    </div>
+</section>
 
-        Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sinistra, ut longiores fimbriae tunicaeque perspicue luceant varietate liciorum effigiatae in species animalium multiformes.</p>
-</section>
-<section class="home-movies d-none">
-    <h3>Films</h3>
-    <div class="home-movies-list">
-        <div>
-            <img src="" alt="">
-            <p>Lorem Ipsum</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p>Lorem Ipsum</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p>Lorem Ipsum</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p>Lorem Ipsum</p>
-        </div>
-    </div>
-    <a href="movies.html" class=" btn btn-more">Voir tous les films</a>
-</section>
-<a href="movies.html" class="btn btn-more d-md-none">
-    <i class="bi bi-film"></i><br>Voir les films projetés</a>
-<section class="home-news">
-    <h3>Actualités</h3>
-    <div>
-        <div>
-            <img src="" alt="">
-            <p>Lorem Ipsum</p>
-        </div>
-        <div class="d-none">
-            <img src="" alt="">
-            <p>Lorem Ipsum</p>
-        </div>
-        <div class="d-none">
-            <img src="" alt="">
-            <p>Lorem Ipsum</p>
-        </div>
-        <div class="d-none">
-            <img src="" alt="">
-            <p>Lorem Ipsum</p>
-        </div>
-    </div>
-    <a href="news.html" class="btn btn-more">Voir toutes les actualités</a>
-</section>
+<form class="booking-form container form-group mb-5">
+    <input type="text" placeholder="Prénom" class="form-control">
+    <input type="text" placeholder="Nom" class="form-control">
+    <input type="number" placeholder="Nombre de Place" class="form-control">
+    <input type="text" placeholder="Adresse Email" class="form-control">
+    <a href="booking.html" class=" btn btn-submit">Réservez la séance du 08 Août</a>
+</form>
 <hr>
 <footer>
     <div class="social-media">
@@ -114,7 +100,7 @@
     <!--<div class="site-map">
         <h4>Plan du Site</h4>
         <a href="home.html">Accueil</a>
-        <a href="movies.html">Films</a>
+        <a href="booking.html">Films</a>
         <a href="news.html">Actualités</a>
         <a href="contact.html">Infos Pratiques</a>
     </div>-->
