@@ -185,7 +185,6 @@ footer .site-map {
     margin: 2rem auto;
 }
 
-footer .site-map,
 footer .site-map a {
     margin: 0 1rem;
     /*font-size: 2rem;*/
@@ -224,6 +223,32 @@ button.btn-submit {
     h1 a.navbar-brand {
         font-size: 2rem;
         font-weight: 400;
+    }
+
+    footer {
+        align-items: baseline;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer div {
+        margin: .5rem auto !important;
+    }
+
+    footer .site-map a {
+        display: block;
+        /*text-decoration: none;*/
+        margin: .5rem auto;
+    }
+
+    footer .social-media {
+        width: 100%;
+        margin-top: 1.5rem !important;
+    }
+    footer .social-media a {
+        font-size: 1.5rem;
+        margin-inline: 3rem !important;
     }
 }
 
