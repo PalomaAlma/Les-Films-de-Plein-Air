@@ -110,26 +110,9 @@ section .card .card-img-top {
     width: 10rem;
 }
 
-/* Page de Réservation */
-
-/*.booking-form.form-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.new img {
+    max-width: 40rem;
 }
-
-.booking-form.form-group .form-control {
-    background-color: rgba(242, 242, 242, 0.8);
-    color: #0D0D0D;
-    margin: .25rem 0;
-    width: 30%;
-}
-
-.booking-form.form-group .form-control:nth-child(4) {
-    width: 100%;
-}*/
-
-/* Fin Page de Réservation */
 
 /* Page de Contact */
 
