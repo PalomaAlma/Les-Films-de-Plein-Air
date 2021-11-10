@@ -134,7 +134,6 @@ section .card .card-img-top {
     color: #0D0D0D;
     margin: .25rem auto;
     padding: .5rem;
-    width: 75%;
 }
 
 /* Fin Page de Contact */
@@ -223,6 +222,21 @@ button.btn-submit {
     h1 a.navbar-brand {
         font-size: 2rem;
         font-weight: 400;
+    }
+
+    .info-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .contact {
+        max-width: 50%;
+    }
+
+    .btn-submit {
+        /*margin-inline:0 !important;*/
+        width: 100% !important;
     }
 
     footer {
