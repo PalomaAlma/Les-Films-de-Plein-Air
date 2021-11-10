@@ -172,10 +172,11 @@ a .btn-more {
 /* Footer */
 
 footer {
-    /*background-color: #0D0D0D;*/
-    /*display: flex;*/
-    flex-wrap: wrap;
     text-align: center;
+}
+
+footer h4 {
+    font-size: 1rem;
 }
 
 footer .newsletter-footer,
@@ -195,7 +196,7 @@ footer .site-map a {
 footer .newsletter-footer .form-group input {
     background-color: rgba(242, 242, 242, 0.9);
     color: #0D0D0D;
-    margin: .25rem auto;
+    margin: 0 auto;
     padding: .5rem;
     width: 75%;
 }
