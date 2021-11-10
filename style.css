@@ -11,7 +11,7 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 a.navbar-brand, h2, h3, h4, h5, h6 {
     color: #F2A20C !important;
     font-family: 'Expletus Sans', cursive;
     font-weight: 400;
@@ -25,16 +25,20 @@ a {
     filter: grayscale(45%);
 }
 
-h1 a.navbar-brand {
-    /*color: #F2A20C !important;*/
-    color: #F2F2F2 !important;
-    /*filter: grayscale(45%);*/
-    /*color: #0D0D0D !important;*/
-    /*font-weight: 700;*/
-    /*text-shadow: .02rem .02rem .02rem #F2F2F2;*/
-    /*text-shadow: .02rem .02rem .02rem #000000;*/
-    /*text-shadow: none;*/
+a:hover, button:hover {
+    filter: grayscale(0) !important;
 }
+
+/*h1 a.navbar-brand {
+    color: #F2A20C !important;
+    !*color: #F2F2F2 !important;*!
+    !*filter: grayscale(45%);*!
+    !*color: #0D0D0D !important;*!
+    !*font-weight: 700;*!
+    !*text-shadow: .02rem .02rem .02rem #F2F2F2;*!
+    !*text-shadow: .02rem .02rem .02rem #000000;*!
+    !*text-shadow: none;*!
+}*/
 
 /*h2 {
     font-weight: 400;
@@ -56,6 +60,12 @@ header {
     height: 25rem;
 }*/
 
+/* Nav */
+
+nav .navbar-toggler {
+    color: #F2A20C !important;
+}
+
 nav .nav-link {
     /*color: #0D0D0D !important;*/
     color: #F2F2F2 !important;
@@ -63,15 +73,28 @@ nav .nav-link {
     text-transform: uppercase;
 }
 
+nav .nav-link:hover, nav .navbar-toggler:hover {
+    /*color: #0D0D0D !important;*/
+    color: #F2A20C !important;
+}
+
 nav .nav-link.active {
     font-weight: 700;
 }
+
+/* Fin Nav */
+
+/* Section */
 
 section {
     text-align: center;
     margin: 4rem 0;
 }
 
+/* Fin Section */
+
+
+/* Cartes */
 
 section .card {
     background-color: rgba(242, 242, 242, 0.05);
@@ -80,6 +103,10 @@ section .card {
 section .card .card-img-top {
     width: 20rem;
 }
+
+/* Fin Cartes */
+
+/* Page de Réservation */
 
 .booking-form.form-group {
     display: flex;
@@ -98,7 +125,33 @@ section .card .card-img-top {
     width: 100%;
 }
 
-.btn-more {
+/* Fin Page de Réservation */
+
+/* Page de Contact */
+
+.contact-form .form-group input {
+    background-color: rgba(242, 242, 242, 0.9);
+    color: #0D0D0D;
+    margin: .25rem auto;
+    padding: .5rem;
+    width: 75%;
+}
+
+/* Fin Page de Contact */
+
+/* Icônes Réseaux Sociaux */
+
+.social-media a {
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: #F28B0C;
+    text-shadow: .025rem .025rem .025rem rgba(166, 95, 8, 0.25);
+}
+/* Fin Icônes Réseaux Sociaux */
+
+/* Bouton + */
+
+a .btn-more {
     background: #F28B0C;
     box-shadow: inset 0 -2px 2px 2px rgba(166, 95, 8, 0.25), inset 0 2px 2px 2px #F2A20C;
     border-radius: 10px;
@@ -113,28 +166,30 @@ section .card .card-img-top {
     filter: grayscale(45%);
 }
 
+/* Fin Bouton + */
+
+
+/* Footer */
+
 footer {
     /*background-color: #0D0D0D;*/
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
     text-align: center;
 }
 
-footer .newsletter-footer {
-    margin: 1rem auto;
-    order: 1;
+footer .newsletter-footer,
+footer .social-media,
+footer .site-map {
+    margin: 2rem auto;
 }
 
-footer .social-media {
-    margin: 1rem auto;
-    order: 2;
-}
-
-footer .social-media a {
+footer .site-map,
+footer .site-map a {
     margin: 0 1rem;
-    font-size: 2rem;
+    /*font-size: 2rem;*/
     color: #F28B0C;
-    text-shadow: .025rem .025rem .025rem rgba(166, 95, 8, 0.25);
+    /*text-shadow: .025rem .025rem .025rem rgba(166, 95, 8, 0.25);*/
 }
 
 footer .newsletter-footer .form-group input {
@@ -144,6 +199,10 @@ footer .newsletter-footer .form-group input {
     padding: .5rem;
     width: 75%;
 }
+
+/* Fin Footer */
+
+/* Bouton Submit */
 
 .btn-submit {
     background: #F28B0C;
@@ -157,6 +216,8 @@ footer .newsletter-footer .form-group input {
     width: 75%;
     filter: grayscale(45%);
 }
+
+/* Fin Bouton Submit */
 
 @media (min-width: 992px) {
     h1 a.navbar-brand {
