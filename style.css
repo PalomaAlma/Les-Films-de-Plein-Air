@@ -29,20 +29,6 @@ a:hover, button:hover {
     filter: grayscale(0) !important;
 }
 
-/*h1 a.navbar-brand {
-    color: #F2A20C !important;
-    !*color: #F2F2F2 !important;*!
-    !*filter: grayscale(45%);*!
-    !*color: #0D0D0D !important;*!
-    !*font-weight: 700;*!
-    !*text-shadow: .02rem .02rem .02rem #F2F2F2;*!
-    !*text-shadow: .02rem .02rem .02rem #000000;*!
-    !*text-shadow: none;*!
-}*/
-
-/*h2 {
-    font-weight: 400;
-}*/
 
 header {
     /*background-image: url('img/alex-litvin-MAYsdoYpGuk-unsplash.jpg');*/
@@ -250,6 +236,10 @@ button.btn-submit {
     footer .social-media a {
         font-size: 1.5rem;
         margin-inline: 3rem !important;
+    }
+
+    footer .newsletter-footer .form-group input {
+        width: 100%;
     }
 }
 
