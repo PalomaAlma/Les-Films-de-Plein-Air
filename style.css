@@ -106,9 +106,13 @@ section .card .card-img-top {
 
 /* Fin Cartes */
 
+.movie-movies-list article .card-img-top {
+    width: 10rem;
+}
+
 /* Page de Réservation */
 
-.booking-form.form-group {
+/*.booking-form.form-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -123,14 +127,14 @@ section .card .card-img-top {
 
 .booking-form.form-group .form-control:nth-child(4) {
     width: 100%;
-}
+}*/
 
 /* Fin Page de Réservation */
 
 /* Page de Contact */
 
-.contact-form .form-group input {
-    background-color: rgba(242, 242, 242, 0.9);
+.form-group input {
+    background-color: rgba(242, 242, 242, 0.8);
     color: #0D0D0D;
     margin: .25rem auto;
     padding: .5rem;
